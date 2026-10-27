@@ -1,0 +1,187 @@
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>My Portfolio</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body style="margin: 0; font-family: 'Franklin Gothic Demi', 'Franklin Gothic', sans-serif; background: #101010; color: white;">
+
+    <!-- Website Container -->
+    <div style="width: 92%; max-width: 1450px; min-height: 100vh; margin: 0 auto; box-sizing: border-box; display: flex; flex-direction: column;">
+
+        <!-- Header -->
+        <header style="min-height: 80px; flex-shrink: 0; display: flex; justify-content: space-between; align-items: center; gap: 20px; border-bottom: 1px solid #333; padding: 0 25px; box-sizing: border-box;">
+
+            <h1 style="font-size: clamp(20px, 2vw, 30px);">My<span style="color: #a78bfa;"> Portfolio.</span></h1>
+
+            <nav style="display: flex; gap: 18px; align-items: center; flex-wrap: wrap;">
+                <a href="#home" style="color: white; text-decoration: none;">Home</a>
+                <a href="#about" style="color: white; text-decoration: none;">About Me</a>
+                <a href="#projects" style="color: white; text-decoration: none;">Projects</a>
+                <a href="#blog" style="color: white; text-decoration: none;">Blog</a>
+                <a href="#resume" style="color: white; text-decoration: none;">Resume</a>
+                <a href="#contact" style="color: white; text-decoration: none;">Contact</a>
+            </nav>
+
+        </header>
+
+        <!-- Main Section -->
+        <main id="home" style="min-height: 390px; flex-shrink: 0; display: flex; justify-content: space-between; align-items: center; gap: 35px; border: 1px solid #333; padding: 35px 25px; box-sizing: border-box;">
+
+            <!-- Introduction -->
+            <section style="flex: 1; min-width: 0;">
+
+                <p style="color: #a78bfa; font-size: 13px; letter-spacing: 2px; text-transform: uppercase;">Welcome to my portfolio</p>
+
+                <h1 style="font-size: clamp(30px, 3vw, 48px); margin: 12px 0;">Hello, I'm <span style="color: #a78bfa;">Your Name.</span></h1>
+
+                <h2 style="font-size: clamp(17px, 1.8vw, 24px); color: #ddd;">Game Designer / 3D Artist / Web Designer</h2>
+
+                <p style="font-size: clamp(14px, 1.2vw, 17px); line-height: 1.7; color: #bdbdbd; max-width: 760px;">
+                    I combine creativity and technology through game development, 3D modelling and web design. Explore my projects and creative interests.
+                </p>
+
+                <a href="#projects" style="display: inline-block; background: #8b5cf6; color: white; padding: 11px 18px; margin-right: 8px; border-radius: 5px; text-decoration: none;">Explore My Work</a>
+
+                <a href="#contact" style="display: inline-block; border: 1px solid #8b5cf6; color: white; padding: 10px 18px; border-radius: 5px; text-decoration: none;">Get in Touch</a>
+
+            </section>
+
+            <!-- Profile Picture -->
+            <div style="width: 38%; max-width: 480px; height: 320px; flex-shrink: 0; border: 1px solid #4c3b70; border-radius: 12px; box-sizing: border-box; overflow: hidden; background: #1b1724;">
+
+                <img src="pictures/Selfie.png"
+                     alt="Profile photo"
+                     style="width: 100%; height: 100%; object-fit: cover; display: block;">
+
+            </div>
+
+        </main>
+
+        <!-- About Me Section -->
+        <section id="about" style="border: 1px solid #333; box-sizing: border-box; padding: 22px 25px;">
+
+            <h2 style="font-size: clamp(20px, 2vw, 28px); margin: 4px 0 12px;">About Me</h2>
+
+            <p style="color: #bdbdbd; line-height: 1.7; margin: 8px 0 18px;">
+                I am interested in how creative ideas become digital experiences. From designing interactive worlds and creating 3D assets to building websites, I enjoy experimenting with visual styles, solving problems and learning new tools. I aim to make work that looks engaging and is easy for people to use.
+            </p>
+
+            <p style="color: #c4b5fd; line-height: 1.8; margin: 0;">Creative Thinking &nbsp; • &nbsp; Technical Skills &nbsp; • &nbsp; User Experience</p>
+
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projects" style="min-height: 270px; border: 1px solid #333; box-sizing: border-box; padding: 18px 25px 25px;">
+
+            <h2 style="font-size: clamp(20px, 2vw, 28px); margin: 8px 0 16px;">Featured Projects</h2>
+
+            <div style="display: flex; gap: 16px; flex-wrap: wrap;">
+
+<!-- Game Development -->
+<div style="flex: 1 1 250px; min-width: 0; min-height: 190px; border: 1px solid #4c3b70; border-radius: 8px; padding: 12px; box-sizing: border-box; background-image: linear-gradient(rgba(0,0,0,0.25), rgba(0,0,0,0.88)), url('pictures/game-development.jpg'); background-size: cover; background-position: center; display: flex; flex-direction: column; justify-content: flex-end;">
+
+    <h3 style="margin: 0 0 8px;">Game Development</h3>
+    <p style="font-size: 14px; line-height: 1.5; margin: 0 0 10px;">Gameplay, level design and interactive experiences.</p>
+    <a href="https://itch.io/games" target="_blank" rel="noopener noreferrer" style="color: #ddd; font-size: 13px;">Explore Games ↗</a>
+
+</div>
+
+<!-- 3D Modelling -->
+<div style="flex: 1 1 250px; min-width: 0; min-height: 190px; border: 1px solid #4c3b70; border-radius: 8px; padding: 12px; box-sizing: border-box; background-image: linear-gradient(rgba(0,0,0,0.25), rgba(0,0,0,0.88)), url('pictures/3d-modelling.jpg'); background-size: cover; background-position: center; display: flex; flex-direction: column; justify-content: flex-end;">
+
+    <h3 style="margin: 0 0 8px;">3D Modelling</h3>
+    <p style="font-size: 14px; line-height: 1.5; margin: 0 0 10px;">3D models, environments, textures and assets.</p>
+    <a href="https://sketchfab.com/" target="_blank" rel="noopener noreferrer" style="color: #ddd; font-size: 13px;">Explore 3D Models ↗</a>
+
+</div>
+
+<!-- Web Design -->
+<div style="flex: 1 1 250px; min-width: 0; min-height: 190px; border: 1px solid #4c3b70; border-radius: 8px; padding: 12px; box-sizing: border-box; background-image: linear-gradient(rgba(0,0,0,0.25), rgba(0,0,0,0.88)), url('pictures/web-design.jpg'); background-size: cover; background-position: center; display: flex; flex-direction: column; justify-content: flex-end;">
+
+    <h3 style="margin: 0 0 8px;">Web Design</h3>
+    <p style="font-size: 14px; line-height: 1.5; margin: 0 0 10px;">Clear, attractive and user-friendly website design.</p>
+    <a href="https://www.awwwards.com/websites/" target="_blank" rel="noopener noreferrer" style="color: #ddd; font-size: 13px;">Explore Website Designs ↗</a>
+
+</div>
+
+            </div>
+
+        </section>
+
+        <!-- Blog Section -->
+        <section id="blog" style="min-height: 130px; border: 1px solid #333; box-sizing: border-box; padding: 15px 25px;">
+
+            <h2 style="font-size: clamp(20px, 2vw, 28px); margin: 4px 0 10px;">Latest Blog Posts</h2>
+
+            <p style="color: #bdbdbd; line-height: 1.6; margin: 8px 0;">Thoughts on game development, design, technology and ideas I discover while working on creative projects.</p>
+
+            <a href="https://wordpress.com/blog/" target="_blank" rel="noopener noreferrer" style="color: #c4b5fd;">Read More</a>
+
+        </section>
+
+        <!-- Resume Section -->
+        <section id="resume" style="min-height: 135px; border: 1px solid #333; box-sizing: border-box; padding: 18px 25px; display: flex; justify-content: space-between; align-items: center; gap: 20px; flex-wrap: wrap;">
+
+            <div style="min-width: 0; flex: 1 1 350px;">
+                <h2 style="font-size: clamp(20px, 2vw, 28px); margin: 4px 0 8px;">Resume</h2>
+
+                <p style="color: #bdbdbd; line-height: 1.6; margin: 8px 0;">Discover my skills, qualifications, experience and professional background in more detail.</p>
+            </div>
+
+            <!-- Resume Buttons -->
+            <div style="display: flex; gap: 10px; flex-wrap: wrap;">
+
+<a href="files/Resume.PDF" target="_blank" style="display: inline-block; background: #8b5cf6; color: white; padding: 11px 16px; border-radius: 5px; text-decoration: none;">View Resume</a>
+
+<a href="files/Resume.PDF" download style="display: inline-block; border: 1px solid #8b5cf6; color: white; padding: 10px 16px; border-radius: 5px; text-decoration: none;">Download Resume</a>
+
+            </div>
+
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" style="min-height: 130px; border: 1px solid #333; box-sizing: border-box; padding: 15px 25px;">
+
+            <h2 style="font-size: clamp(20px, 2vw, 28px); margin: 4px 0 8px;">Contact Me</h2>
+
+            <p style="color: #bdbdbd; line-height: 1.6; margin: 8px 0;">Get in touch to discuss a project, share an idea or explore an opportunity.</p>
+
+            <a href="mailto:alex.morgan@example.com" style="color: #c4b5fd;">Email Me Here</a>
+
+        </section>
+
+        <!-- Footer -->
+        <footer style="min-height: 55px; border: 1px solid #333; box-sizing: border-box; display: flex; align-items: center; justify-content: center;">
+
+            <p style="font-size: 12px; color: #999;">&copy; 2026 My Portfolio. All rights reserved.</p>
+
+        </footer>
+
+    </div>
+
+    <!-- Small-Screen Layout Adjustments -->
+    <style>
+        html { scroll-behavior: smooth; }
+        a:hover { opacity: 0.75; }
+
+        @media (max-width: 800px) {
+            header { flex-wrap: wrap; padding: 15px 20px !important; }
+            header nav { gap: 12px !important; }
+            #home { flex-direction: column; gap: 25px; }
+            #home > div { width: 100% !important; max-width: none !important; height: 280px !important; }
+            #resume { align-items: flex-start !important; }
+        }
+
+        @media (max-width: 500px) {
+            #home, #about, #projects, #blog, #resume, #contact { padding-left: 16px !important; padding-right: 16px !important; }
+            header nav { font-size: 14px; }
+        }
+    </style>
+
+</body>
+</html>
+```
